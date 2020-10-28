@@ -49,8 +49,6 @@ INNER JOIN characters
   GROUP BY series.title
   LIMIT 1  
 ;"
-#you're inside a string here.. so be careful- NO DOUBLE QUOTING use single quotes for values
-#ALSO, I can't see how to ORDER BY COUNT(characters.species = 'human') or whatever..
 end
 
 def select_character_names_and_number_of_books_they_are_in
